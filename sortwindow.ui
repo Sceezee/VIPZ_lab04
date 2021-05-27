@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SortWindow</class>
+ <widget class="QDialog" name="SortWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>642</width>
+    <height>283</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sorting list</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background : #c9e9ff</string>
+  </property>
+  <widget class="QPushButton" name="SortSurnameButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#SortSurnameButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#SortSurnameButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#SortSurnameButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#SortSurnameButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+   </property>
+   <property name="text">
+    <string>By Surname</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortBookameButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>30</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#SortBookameButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#SortBookameButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#SortBookameButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#SortBookameButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+   </property>
+   <property name="text">
+    <string>By Book name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortNameButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#SortNameButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#SortNameButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#SortNameButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#SortNameButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+   </property>
+   <property name="text">
+    <string>By Name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortYearButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#SortYearButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#SortYearButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#SortYearButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#SortYearButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+   </property>
+   <property name="text">
+    <string>By Year</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortPagesButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>100</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#SortPagesButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#SortPagesButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#SortPagesButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#SortPagesButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+   </property>
+   <property name="text">
+    <string>By Pages</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortPriceButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>100</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#SortPriceButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#SortPriceButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#SortPriceButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#SortPriceButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+   </property>
+   <property name="text">
+    <string>By Price</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ExitButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>180</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#ExitButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#ExitButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#ExitButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#ExitButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>581</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #e5f4ff</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>SortSurnameButton</zorder>
+  <zorder>SortBookameButton</zorder>
+  <zorder>SortNameButton</zorder>
+  <zorder>SortYearButton</zorder>
+  <zorder>SortPagesButton</zorder>
+  <zorder>SortPriceButton</zorder>
+  <zorder>ExitButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

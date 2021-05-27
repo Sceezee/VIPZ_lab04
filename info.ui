@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Info</class>
+ <widget class="QDialog" name="Info">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>631</width>
+    <height>558</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Info</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background : #c9e9ff</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>611</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #FFFFE0;
+Border: 1px solid grey;
+color: black;
+font-size: 16px;</string>
+   </property>
+   <property name="plainText">
+    <string>Hello!
+
+It is virtual library special for working with lists of books and its main fuction it is to view lists of books, edit them, add some new books, delete unnecessary books, open ready lists in .txt format and save edited lists in .txt format. You can also sort the list of books by the all parameters.
+
+The main function of program is to delete books with a number of pages less than 150 and the year of publication - before 2000.
+
+There are some rules for entering information about the book you want to add.
+
+• Numbers cannot be used for names and letters cannot be used for other fields.
+
+• The maximum length of a proper name is 25 characters.
+
+• Fields cannot be empty or negative when entering numbers.
+
+The creator of the program is Max Gll.
+If you have additional questions, you can contact me via e-mail: georgelucas@starwars.com
+
+I wish you success in using the program!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>611</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+font-size: 20px;
+</string>
+   </property>
+   <property name="text">
+    <string>Instruction</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

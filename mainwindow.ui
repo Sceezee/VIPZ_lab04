@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1023</width>
+    <height>567</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Virtual Library</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background : #c9e9ff</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="TableBook">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>780</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FFFFE0;
+Border-bottom: 1px solid grey;
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OpenButton">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>40</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#OpenButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#OpenButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#OpenButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#OpenButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+    </property>
+    <property name="text">
+     <string>Open</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DeleteButton">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>180</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#DeleteButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#DeleteButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#DeleteButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#DeleteButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+    </property>
+    <property name="text">
+     <string>Delete book</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddButton">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>110</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#AddButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#OpenButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#AddButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#AddButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+    </property>
+    <property name="text">
+     <string>Add book</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SortButton">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>250</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#SortButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#SortButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#SortButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#SortButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+    </property>
+    <property name="text">
+     <string>Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SaveButton">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>320</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#SaveButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#SaveButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#SaveButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#SaveButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="InfoButton">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>390</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#InfoButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#InfoButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#InfoButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#InfoButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+    </property>
+    <property name="text">
+     <string>Information</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="InfoLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#InfoLabel{
+  color: white;
+  padding: 8px;
+  font-family: Arial;
+  Font-size:22px;
+  font-width:150%;
+  background-color: #8ad4ff;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CloseButton">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>460</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CloseButton{ 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+QPushButton#CloseButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }
+ QPushButton#CloseButton:hover {
+	background-color: #8ad4ff;
+	color: white;
+ }
+ QPushButton#CloseButton:pressed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8ad4ff;
+ }</string>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>30</y>
+      <width>121</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #e5f4ff</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>TableBook</zorder>
+   <zorder>OpenButton</zorder>
+   <zorder>DeleteButton</zorder>
+   <zorder>AddButton</zorder>
+   <zorder>SortButton</zorder>
+   <zorder>SaveButton</zorder>
+   <zorder>InfoButton</zorder>
+   <zorder>InfoLabel</zorder>
+   <zorder>CloseButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1023</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
